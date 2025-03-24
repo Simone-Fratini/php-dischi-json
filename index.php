@@ -18,43 +18,43 @@ require_once('./function.php');
     
     <main class="container mx-auto px-4 py-8">
         <div class="mb-8 bg-gray-900 p-6 rounded-lg shadow-lg">
-            <form action="./server.php" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form action="./server.php" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="space-y-2">
                     <label class="block text-gray-300 text-sm font-medium">Titolo</label>
-                    <input type="text" name="title" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
+                    <input type="text" name="titolo" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
                 </div>
                 
                 <div class="space-y-2">
                     <label class="block text-gray-300 text-sm font-medium">Artista</label>
-                    <input type="text" name="artist" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
+                    <input type="text" name="artista" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
                 </div>
                 
                 <div class="space-y-2">
                     <label class="block text-gray-300 text-sm font-medium">Anno</label>
-                    <input type="text" name="year" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
+                    <input type="text" name="anno" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors">
                 </div>
                 
                 <div class="space-y-2">
                     <label class="block text-gray-300 text-sm font-medium">Genere</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                         <label class="inline-flex items-center">
-                            <input type="radio" name="genre" value="rock" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
+                            <input type="radio" name="genere" value="rock" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
                             <span class="ml-2 text-gray-300">Rock Progressivo</span>
                         </label>
                         <label class="inline-flex items-center">
-                            <input type="radio" name="genre" value="Hard Rock" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
+                            <input type="radio" name="genere" value="Hard Rock" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
                             <span class="ml-2 text-gray-300">Hard Rock</span>
                         </label>
                         <label class="inline-flex items-center">
-                            <input type="radio" name="genre" value="pop" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
+                            <input type="radio" name="genere" value="pop" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
                             <span class="ml-2 text-gray-300">Pop</span>
                         </label>
                         <label class="inline-flex items-center">
-                            <input type="radio" name="genre" value="Grunge" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
+                            <input type="radio" name="genere" value="Grunge" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
                             <span class="ml-2 text-gray-300">Grunge</span>
                         </label>
                         <label class="inline-flex items-center">
-                            <input type="radio" name="genre" value="Hip Hop" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
+                            <input type="radio" name="genere" value="Hip Hop" class="form-radio text-blue-500 focus:ring-blue-500 h-4 w-4 bg-gray-800 border-gray-700">
                             <span class="ml-2 text-gray-300">Hip Hop</span>
                         </label>
                     </div>

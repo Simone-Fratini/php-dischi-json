@@ -1,44 +1,51 @@
 [
-  {
-    "titolo": "The Dark Side of the Moon",
-    "artista": "Pink Floyd",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 1973,
-    "genere": "Rock Progressivo"
-  },
-  {
-    "titolo": "Back in Black",
-    "artista": "AC/DC",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 1980,
-    "genere": "Hard Rock"
-  },
-  {
-    "titolo": "Thriller",
-    "artista": "Michael Jackson",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 1982,
-    "genere": "Pop"
-  },
-  {
-    "titolo": "Nevermind",
-    "artista": "Nirvana",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 1991,
-    "genere": "Grunge"
-  },
-  {
-    "titolo": "The Chronic",
-    "artista": "Dr. Dre",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 1992,
-    "genere": "Hip Hop"
-  },
-  {
-    "titolo": "Random Access Memories",
-    "artista": "Daft Punk",
-    "cover": "https://images.unsplash.com/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "anno": 2013,
-    "genere": "Electronic"
-  }
+    {
+        "titolo": "The Dark Side of the Moon",
+        "artista": "Pink Floyd",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 1973,
+        "genere": "Rock Progressivo"
+    },
+    {
+        "titolo": "Back in Black",
+        "artista": "AC\/DC",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 1980,
+        "genere": "Hard Rock"
+    },
+    {
+        "titolo": "Thriller",
+        "artista": "Michael Jackson",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 1982,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Nevermind",
+        "artista": "Nirvana",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 1991,
+        "genere": "Grunge"
+    },
+    {
+        "titolo": "The Chronic",
+        "artista": "Dr. Dre",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 1992,
+        "genere": "Hip Hop"
+    },
+    {
+        "titolo": "Random Access Memories",
+        "artista": "Daft Punk",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "anno": 2013,
+        "genere": "Electronic"
+    },
+    {
+        "titolo": "pippo",
+        "artista": "pluto",
+        "anno": "1926",
+        "genere": "rock",
+        "cover": "https:\/\/images.unsplash.com\/photo-1602848596140-33c2b48c6ade?q=80&w=3878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
 ]
